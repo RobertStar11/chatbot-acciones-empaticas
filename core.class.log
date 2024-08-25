@@ -1,0 +1,1222 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '51967463804@s.whatsapp.net',
+    fromMe: false,
+    id: '1BC0E3E4824EA3E19B5BF305EFDB3332',
+    participant: undefined
+  },
+  messageTimestamp: 1724599610,
+  pushName: '¡¡Hakuna Matata!!😊😊',
+  broadcast: false,
+  message: Message {
+    conversation: 'Hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Hola',
+  from: '51967463804'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_86707d56-1a52-46db-aa55-7b75f464fed3',
+  keyword: 'key_2a0500f1-bd69-492a-a3d4-409379401a00',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '78fb522e42b706db0d8a7e1e31905ef4'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51967463804@s.whatsapp.net',
+    fromMe: false,
+    id: '4016EA2237992AFB5F7F2A3A5AE06D77',
+    participant: undefined
+  },
+  messageTimestamp: 1724599639,
+  pushName: '¡¡Hakuna Matata!!😊😊',
+  broadcast: false,
+  message: Message {
+    conversation: 'Que es IMB?',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Que es IMB?',
+  from: '51967463804'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_86707d56-1a52-46db-aa55-7b75f464fed3',
+  keyword: 'key_2a0500f1-bd69-492a-a3d4-409379401a00',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '78fb522e42b706db0d8a7e1e31905ef4'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51967463804@s.whatsapp.net',
+    fromMe: false,
+    id: '6ACA0A5E37083E01828259A1724E2003',
+    participant: undefined
+  },
+  messageTimestamp: 1724599690,
+  pushName: '¡¡Hakuna Matata!!😊😊',
+  broadcast: false,
+  message: Message {
+    conversation: 'Cual es la modalidad de estudio?',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Cual es la modalidad de estudio?',
+  from: '51967463804'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_86707d56-1a52-46db-aa55-7b75f464fed3',
+  keyword: 'key_2a0500f1-bd69-492a-a3d4-409379401a00',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '78fb522e42b706db0d8a7e1e31905ef4'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51967463804@s.whatsapp.net',
+    fromMe: false,
+    id: '1EE8F02F3EDE1D451C1351B03FEAFD45',
+    participant: undefined
+  },
+  messageTimestamp: 1724599728,
+  pushName: '¡¡Hakuna Matata!!😊😊',
+  broadcast: false,
+  message: Message {
+    conversation: 'Que necesito para llevar la carrera?',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Que necesito para llevar la carrera?',
+  from: '51967463804'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_86707d56-1a52-46db-aa55-7b75f464fed3',
+  keyword: 'key_2a0500f1-bd69-492a-a3d4-409379401a00',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '78fb522e42b706db0d8a7e1e31905ef4'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51967463804@s.whatsapp.net',
+    fromMe: false,
+    id: '2D4934E8BA116A92CAFBBF62DA1A9F03',
+    participant: undefined
+  },
+  messageTimestamp: 1724599757,
+  pushName: '¡¡Hakuna Matata!!😊😊',
+  broadcast: false,
+  message: Message {
+    conversation: 'Cuantos cursos son?',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Cuantos cursos son?',
+  from: '51967463804'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_86707d56-1a52-46db-aa55-7b75f464fed3',
+  keyword: 'key_2a0500f1-bd69-492a-a3d4-409379401a00',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '78fb522e42b706db0d8a7e1e31905ef4'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51967463804@s.whatsapp.net',
+    fromMe: false,
+    id: '80440652FD455486AF0DA3AF8FC4D39D',
+    participant: undefined
+  },
+  messageTimestamp: 1724599802,
+  pushName: '¡¡Hakuna Matata!!😊😊',
+  broadcast: false,
+  message: Message {
+    conversation: 'Puedo convalidar?',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Puedo convalidar?',
+  from: '51967463804'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_86707d56-1a52-46db-aa55-7b75f464fed3',
+  keyword: 'key_2a0500f1-bd69-492a-a3d4-409379401a00',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '78fb522e42b706db0d8a7e1e31905ef4'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51967463804@s.whatsapp.net',
+    fromMe: false,
+    id: 'BAF4FDAD4628A4DD4B12673D2EEFD0AF',
+    participant: undefined
+  },
+  messageTimestamp: 1724599836,
+  pushName: '¡¡Hakuna Matata!!😊😊',
+  broadcast: false,
+  message: Message {
+    conversation: 'Tienen la carrera de sistemas?',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Tienen la carrera de sistemas?',
+  from: '51967463804'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_86707d56-1a52-46db-aa55-7b75f464fed3',
+  keyword: 'key_2a0500f1-bd69-492a-a3d4-409379401a00',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '78fb522e42b706db0d8a7e1e31905ef4'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51967463804@s.whatsapp.net',
+    fromMe: false,
+    id: '6358415AB9CD2D7A0A04D9C534B7F258',
+    participant: undefined
+  },
+  messageTimestamp: 1724599865,
+  pushName: '¡¡Hakuna Matata!!😊😊',
+  broadcast: false,
+  message: Message {
+    conversation: 'Cual es su historia de IMB',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Cual es su historia de IMB',
+  from: '51967463804'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_86707d56-1a52-46db-aa55-7b75f464fed3',
+  keyword: 'key_2a0500f1-bd69-492a-a3d4-409379401a00',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '78fb522e42b706db0d8a7e1e31905ef4'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51967463804@s.whatsapp.net',
+    fromMe: false,
+    id: 'BD4BAB17015B7E0AB2DF559B85C573F6',
+    participant: undefined
+  },
+  messageTimestamp: 1724599898,
+  pushName: '¡¡Hakuna Matata!!😊😊',
+  broadcast: false,
+  message: Message {
+    conversation: 'Cuales son los costos?',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Cuales son los costos?',
+  from: '51967463804'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51910135130@s.whatsapp.net',
+    fromMe: false,
+    id: 'FC52D4BFC4F2B73323B86D69A340F87F',
+    participant: undefined
+  },
+  messageTimestamp: 1724599899,
+  pushName: 'Leonardo',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'Nunca me pasaste bro',
+      previewType: 0,
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Nunca me pasaste bro',
+  from: '51910135130'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_86707d56-1a52-46db-aa55-7b75f464fed3',
+  keyword: 'key_2a0500f1-bd69-492a-a3d4-409379401a00',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '78fb522e42b706db0d8a7e1e31905ef4'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_86707d56-1a52-46db-aa55-7b75f464fed3',
+  keyword: 'key_2a0500f1-bd69-492a-a3d4-409379401a00',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '78fb522e42b706db0d8a7e1e31905ef4'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51910135130@s.whatsapp.net',
+    fromMe: false,
+    id: '8DF25CA0C61C6563922CE68F5B5ADFC6',
+    participant: undefined
+  },
+  messageTimestamp: 1724599920,
+  pushName: 'Leonardo',
+  broadcast: false,
+  message: Message {
+    stickerMessage: StickerMessage {
+      url: 'https://mmg.whatsapp.net/v/t62.15575-24/19916224_1022233492463305_2005529229716692190_n.enc?ccb=11-4&oh=01_Q5AaICzXK3KfLZ_K6XSwJ5unc5AC72U3PD9mCKJ_fMMcY-J5&oe=66F2BD6C&_nc_sid=5e03e0&mms3=true',
+      fileSha256: [Uint8Array],
+      fileEncSha256: [Uint8Array],
+      mediaKey: [Uint8Array],
+      mimetype: 'image/webp',
+      height: 64,
+      width: 64,
+      directPath: '/v/t62.15575-24/19916224_1022233492463305_2005529229716692190_n.enc?ccb=11-4&oh=01_Q5AaICzXK3KfLZ_K6XSwJ5unc5AC72U3PD9mCKJ_fMMcY-J5&oe=66F2BD6C&_nc_sid=5e03e0',
+      fileLength: [Long],
+      mediaKeyTimestamp: [Long],
+      isAnimated: false,
+      contextInfo: [ContextInfo],
+      stickerSentTs: [Long],
+      isAvatar: false
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '_event_media__030c63e7-4f23-4cce-8bf6-3c610ba5cba5',
+  from: '51910135130'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_86707d56-1a52-46db-aa55-7b75f464fed3',
+  keyword: 'key_2a0500f1-bd69-492a-a3d4-409379401a00',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '78fb522e42b706db0d8a7e1e31905ef4'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51910135130@s.whatsapp.net',
+    fromMe: false,
+    id: 'E7497C2AAAB2CFF281938369C4DF7EAC',
+    participant: undefined
+  },
+  messageTimestamp: 1724599933,
+  pushName: 'Leonardo',
+  broadcast: false,
+  message: Message {
+    protocolMessage: ProtocolMessage {
+      key: [MessageKey],
+      type: 4,
+      ephemeralExpiration: 86400,
+      ephemeralSettingTimestamp: [Long],
+      disappearingMode: [DisappearingMode]
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '',
+  from: '51910135130'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51910135130@s.whatsapp.net',
+    fromMe: false,
+    id: 'EE847D31EC402065AEDD562646FDCB26',
+    participant: undefined
+  },
+  messageTimestamp: 1724599939,
+  pushName: 'Leonardo',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'XD',
+      previewType: 0,
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'XD',
+  from: '51910135130'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51910135130@s.whatsapp.net',
+    fromMe: false,
+    id: 'D2BD6B0FD48BA2C2A5277C71F33BA775',
+    participant: undefined
+  },
+  messageTimestamp: 1724599946,
+  pushName: 'Leonardo',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'Ya amor',
+      previewType: 0,
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Ya amor',
+  from: '51910135130'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_86707d56-1a52-46db-aa55-7b75f464fed3',
+  keyword: 'key_2a0500f1-bd69-492a-a3d4-409379401a00',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '78fb522e42b706db0d8a7e1e31905ef4'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51910135130@s.whatsapp.net',
+    fromMe: false,
+    id: '708FA02FADA2F50EF702CF1D75DC1674',
+    participant: undefined
+  },
+  messageTimestamp: 1724599951,
+  pushName: 'Leonardo',
+  broadcast: false,
+  message: Message {
+    protocolMessage: ProtocolMessage {
+      key: [MessageKey],
+      type: 4,
+      ephemeralExpiration: 86400,
+      ephemeralSettingTimestamp: [Long],
+      disappearingMode: [DisappearingMode]
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '',
+  from: '51910135130'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_86707d56-1a52-46db-aa55-7b75f464fed3',
+  keyword: 'key_2a0500f1-bd69-492a-a3d4-409379401a00',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '78fb522e42b706db0d8a7e1e31905ef4'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51967463804@s.whatsapp.net',
+    fromMe: false,
+    id: '74336FE5698FA7C25AA9115B9B54B00E',
+    participant: undefined
+  },
+  messageTimestamp: 1724599994,
+  pushName: '¡¡Hakuna Matata!!😊😊',
+  broadcast: false,
+  message: Message {
+    conversation: 'Tienen pagina web?',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Tienen pagina web?',
+  from: '51967463804'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_86707d56-1a52-46db-aa55-7b75f464fed3',
+  keyword: 'key_2a0500f1-bd69-492a-a3d4-409379401a00',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '78fb522e42b706db0d8a7e1e31905ef4'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51967463804@s.whatsapp.net',
+    fromMe: false,
+    id: 'C2D659383A2D2F2A36B20F65599FF225',
+    participant: undefined
+  },
+  messageTimestamp: 1724600034,
+  pushName: '¡¡Hakuna Matata!!😊😊',
+  broadcast: false,
+  message: Message {
+    conversation: 'Tienes la malla curricular?',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Tienes la malla curricular?',
+  from: '51967463804'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_86707d56-1a52-46db-aa55-7b75f464fed3',
+  keyword: 'key_2a0500f1-bd69-492a-a3d4-409379401a00',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '78fb522e42b706db0d8a7e1e31905ef4'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51967463804@s.whatsapp.net',
+    fromMe: false,
+    id: 'B32122CAF36970218425E0EEEB159028',
+    participant: undefined
+  },
+  messageTimestamp: 1724600088,
+  pushName: '¡¡Hakuna Matata!!😊😊',
+  broadcast: false,
+  message: Message {
+    conversation: 'Cuáles son los metodos de pago?',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Cuáles son los metodos de pago?',
+  from: '51967463804'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_86707d56-1a52-46db-aa55-7b75f464fed3',
+  keyword: 'key_2a0500f1-bd69-492a-a3d4-409379401a00',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '78fb522e42b706db0d8a7e1e31905ef4'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51967463804@s.whatsapp.net',
+    fromMe: false,
+    id: '9DB23949AD30E31F5803DE9E81FFFA47',
+    participant: undefined
+  },
+  messageTimestamp: 1724600113,
+  pushName: '¡¡Hakuna Matata!!😊😊',
+  broadcast: false,
+  message: Message {
+    conversation: 'Tienen plin?',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Tienen plin?',
+  from: '51967463804'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_86707d56-1a52-46db-aa55-7b75f464fed3',
+  keyword: 'key_2a0500f1-bd69-492a-a3d4-409379401a00',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '78fb522e42b706db0d8a7e1e31905ef4'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51967463804@s.whatsapp.net',
+    fromMe: false,
+    id: 'B8A4181BBFC01F278DA28D547CC28B66',
+    participant: undefined
+  },
+  messageTimestamp: 1724600144,
+  pushName: '¡¡Hakuna Matata!!😊😊',
+  broadcast: false,
+  message: Message {
+    conversation: 'Cuales son los requistos de admision',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Cuales son los requistos de admision',
+  from: '51967463804'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_86707d56-1a52-46db-aa55-7b75f464fed3',
+  keyword: 'key_2a0500f1-bd69-492a-a3d4-409379401a00',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '78fb522e42b706db0d8a7e1e31905ef4'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51967463804@s.whatsapp.net',
+    fromMe: false,
+    id: '71FD54303EE76BEBA60C1D82A6F64FE7',
+    participant: undefined
+  },
+  messageTimestamp: 1724600162,
+  pushName: '¡¡Hakuna Matata!!😊😊',
+  broadcast: false,
+  message: Message {
+    conversation: 'Y como puedo inscribirme',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Y como puedo inscribirme',
+  from: '51967463804'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_86707d56-1a52-46db-aa55-7b75f464fed3',
+  keyword: 'key_2a0500f1-bd69-492a-a3d4-409379401a00',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '78fb522e42b706db0d8a7e1e31905ef4'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51967463804@s.whatsapp.net',
+    fromMe: false,
+    id: '649B30C1478954675500CF1D57EB47D9',
+    participant: undefined
+  },
+  messageTimestamp: 1724600212,
+  pushName: '¡¡Hakuna Matata!!😊😊',
+  broadcast: false,
+  message: Message {
+    conversation: 'Cuando comienzan sus clases?',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Cuando comienzan sus clases?',
+  from: '51967463804'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_86707d56-1a52-46db-aa55-7b75f464fed3',
+  keyword: 'key_2a0500f1-bd69-492a-a3d4-409379401a00',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '78fb522e42b706db0d8a7e1e31905ef4'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51967463804@s.whatsapp.net',
+    fromMe: false,
+    id: '242D0DCA3377E8B5B08F446A9CD5A86C',
+    participant: undefined
+  },
+  messageTimestamp: 1724600226,
+  pushName: '¡¡Hakuna Matata!!😊😊',
+  broadcast: false,
+  message: Message {
+    conversation: 'Horario de atención tienen presencial?',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Horario de atención tienen presencial?',
+  from: '51967463804'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_86707d56-1a52-46db-aa55-7b75f464fed3',
+  keyword: 'key_2a0500f1-bd69-492a-a3d4-409379401a00',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '78fb522e42b706db0d8a7e1e31905ef4'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51967463804@s.whatsapp.net',
+    fromMe: false,
+    id: 'FA70885AEDC94226A4B598815D5EB18A',
+    participant: undefined
+  },
+  messageTimestamp: 1724600237,
+  pushName: '¡¡Hakuna Matata!!😊😊',
+  broadcast: false,
+  message: Message {
+    conversation: 'IMB esta licenciada?',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'IMB esta licenciada?',
+  from: '51967463804'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_86707d56-1a52-46db-aa55-7b75f464fed3',
+  keyword: 'key_2a0500f1-bd69-492a-a3d4-409379401a00',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '78fb522e42b706db0d8a7e1e31905ef4'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51967463804@s.whatsapp.net',
+    fromMe: false,
+    id: '5E56C293189D4170DD81E39CAB541EFB',
+    participant: undefined
+  },
+  messageTimestamp: 1724600267,
+  pushName: '¡¡Hakuna Matata!!😊😊',
+  broadcast: false,
+  message: Message {
+    conversation: 'Y cual es la fecha limite para matricularse?',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Y cual es la fecha limite para matricularse?',
+  from: '51967463804'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_86707d56-1a52-46db-aa55-7b75f464fed3',
+  keyword: 'key_2a0500f1-bd69-492a-a3d4-409379401a00',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '78fb522e42b706db0d8a7e1e31905ef4'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51967463804@s.whatsapp.net',
+    fromMe: false,
+    id: '3AB526FEC365E6AB2FF6413936B93400',
+    participant: undefined
+  },
+  messageTimestamp: 1724600300,
+  pushName: '¡¡Hakuna Matata!!😊😊',
+  broadcast: false,
+  message: Message {
+    conversation: 'Puedo llamar por telefono ?',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Puedo llamar por telefono ?',
+  from: '51967463804'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_86707d56-1a52-46db-aa55-7b75f464fed3',
+  keyword: 'key_2a0500f1-bd69-492a-a3d4-409379401a00',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '78fb522e42b706db0d8a7e1e31905ef4'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51967463804@s.whatsapp.net',
+    fromMe: false,
+    id: 'C8E125E02F047C41765B4EFF814A658C',
+    participant: undefined
+  },
+  messageTimestamp: 1724600367,
+  pushName: '¡¡Hakuna Matata!!😊😊',
+  broadcast: false,
+  message: Message {
+    conversation: 'Pero quiero llamar ahora mismo',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Pero quiero llamar ahora mismo',
+  from: '51967463804'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_86707d56-1a52-46db-aa55-7b75f464fed3',
+  keyword: 'key_2a0500f1-bd69-492a-a3d4-409379401a00',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '78fb522e42b706db0d8a7e1e31905ef4'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51967463804@s.whatsapp.net',
+    fromMe: false,
+    id: '7B788A18F9EC608D8D29B663774D2D2B',
+    participant: undefined
+  },
+  messageTimestamp: 1724600409,
+  pushName: '¡¡Hakuna Matata!!😊😊',
+  broadcast: false,
+  message: Message {
+    conversation: 'Ok muchas gracias',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Ok muchas gracias',
+  from: '51967463804'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_86707d56-1a52-46db-aa55-7b75f464fed3',
+  keyword: 'key_2a0500f1-bd69-492a-a3d4-409379401a00',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '78fb522e42b706db0d8a7e1e31905ef4'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51967463804@s.whatsapp.net',
+    fromMe: false,
+    id: 'D202720496D668CCADFB1A65674C0FFC',
+    participant: undefined
+  },
+  messageTimestamp: 1724600418,
+  pushName: '¡¡Hakuna Matata!!😊😊',
+  broadcast: false,
+  message: Message {
+    conversation: 'Tiene becas?',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Tiene becas?',
+  from: '51967463804'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_86707d56-1a52-46db-aa55-7b75f464fed3',
+  keyword: 'key_2a0500f1-bd69-492a-a3d4-409379401a00',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '78fb522e42b706db0d8a7e1e31905ef4'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51967463804@s.whatsapp.net',
+    fromMe: false,
+    id: '14D6EE762E2C131954B16A637DCEB74C',
+    participant: undefined
+  },
+  messageTimestamp: 1724600540,
+  pushName: '¡¡Hakuna Matata!!😊😊',
+  broadcast: false,
+  message: Message {
+    conversation: 'Materiales o medios para llevar la carrera',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Materiales o medios para llevar la carrera',
+  from: '51967463804'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_86707d56-1a52-46db-aa55-7b75f464fed3',
+  keyword: 'key_2a0500f1-bd69-492a-a3d4-409379401a00',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '78fb522e42b706db0d8a7e1e31905ef4'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51967463804@s.whatsapp.net',
+    fromMe: false,
+    id: 'C994AB490595C33A782180814C7B1A72',
+    participant: undefined
+  },
+  messageTimestamp: 1724600664,
+  pushName: '¡¡Hakuna Matata!!😊😊',
+  broadcast: false,
+  message: Message {
+    conversation: 'Ok si cumplo los requisitos',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Ok si cumplo los requisitos',
+  from: '51967463804'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_86707d56-1a52-46db-aa55-7b75f464fed3',
+  keyword: 'key_2a0500f1-bd69-492a-a3d4-409379401a00',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '78fb522e42b706db0d8a7e1e31905ef4'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51967463804@s.whatsapp.net',
+    fromMe: false,
+    id: '4DFB9C93349E59999119284F7B461DEB',
+    participant: undefined
+  },
+  messageTimestamp: 1724600686,
+  pushName: '¡¡Hakuna Matata!!😊😊',
+  broadcast: false,
+  message: Message {
+    conversation: 'Ok Gracias',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Ok Gracias',
+  from: '51967463804'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_86707d56-1a52-46db-aa55-7b75f464fed3',
+  keyword: 'key_2a0500f1-bd69-492a-a3d4-409379401a00',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '78fb522e42b706db0d8a7e1e31905ef4'
+}
