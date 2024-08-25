@@ -5,11 +5,12 @@ const MockAdapter = require('@bot-whatsapp/database/mock');
 const OpenAI = require('openai');
 const fs = require('fs');
 const path = require('path');
+require('dotenv').config();
 
 // Configuración de la API de OpenAI
 const openai = new OpenAI({
-    apiKey: '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',
-    organization: 'org-tg9MIOsULqE62bAacUjDRLP7',
+    apiKey: process.env.OPENAI_API_KEY,
+    organization: process.env.OPENAI_ORGANIZATION,
 });
 
 // Contexto para la IA
