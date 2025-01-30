@@ -144,7 +144,7 @@ const main = async () => {
 
 // **NUEVO: Servidor Express para la Web**
 const app = express();
-const port = process.env.PORT || 3001;
+const port = process.env.PORT || 3000;
 app.use(express.json());
 app.use(cors()); // Permite que WordPress pueda comunicarse con el bot
 
