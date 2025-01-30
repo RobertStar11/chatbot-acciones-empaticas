@@ -139,7 +139,7 @@ const main = async () => {
         database: adapterDB,
     });
 
-    QRPortalWeb({ port: process.env.PORT || 3000 });
+    QRPortalWeb();
 };
 
 // **NUEVO: Servidor Express para la Web**
@@ -158,8 +158,10 @@ app.post('/chat', async (req, res) => {
 });
 
 // Iniciar servidor Express
-app.listen(port, () => {
-    console.log(`Servidor web activo en http://localhost:${port}`);
+app.listen(port, '0.0.0.0', () => {
+    console.log(`✅ Servidor web activo en http://localhost:${port}`);
+}).on('error', (err) => {
+    console.error(`❌ Error al iniciar el servidor en el puerto ${port}:`, err.message);
 });
 
 // Ejecutar el bot de WhatsApp
