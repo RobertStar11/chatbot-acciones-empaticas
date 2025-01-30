@@ -1,26 +1,68 @@
 [handleMsg]:  {
   key: {
-    remoteJid: '51967463804@s.whatsapp.net',
+    remoteJid: '51974511703@s.whatsapp.net',
     fromMe: false,
-    id: 'A6E024786527716B3A70D52314E5BBA7',
+    id: '400E43FA6C41E150DDA6E9E9BC660698',
     participant: undefined
   },
-  messageTimestamp: 1724624773,
-  pushName: '¡¡Hakuna Matata!!😊😊',
+  messageTimestamp: 1738259915,
+  pushName: 'CLARO PORTABILIDAD',
+  broadcast: false,
+  message: Message {
+    conversation: 'Homa',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  verifiedBizName: 'CLARO PORTABILIDAD',
+  body: 'Homa',
+  from: '51974511703'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_abd41dcb-9754-4ee2-94d1-f7e13ff24ee1',
+  keyword: 'key_21f7be76-6bfc-4071-9cac-2a86d0101b60',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'f0f8508dd24826cfcd8be11e8518eeb8'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51974511703@s.whatsapp.net',
+    fromMe: false,
+    id: '0313412A3BE60C70065246F468412B0B',
+    participant: undefined
+  },
+  messageTimestamp: 1738259924,
+  pushName: 'CLARO PORTABILIDAD',
   broadcast: false,
   message: Message {
     conversation: 'Hola',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
     }
   },
+  verifiedBizName: 'CLARO PORTABILIDAD',
   body: 'Hola',
-  from: '51967463804'
+  from: '51974511703'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_882f2b10-40e3-4492-b288-53f3bb7abec4',
-  keyword: 'key_32192cd7-10e8-46ee-a6fa-26528b120511',
+  ref: 'ans_abd41dcb-9754-4ee2-94d1-f7e13ff24ee1',
+  keyword: 'key_21f7be76-6bfc-4071-9cac-2a86d0101b60',
   answer: '__call_action__',
   options: {
     media: null,
@@ -34,31 +76,33 @@
     keyword: {},
     callback: true
   },
-  refSerialize: '4f2cf52c4c8d5465dcda4d785862f8c0'
+  refSerialize: 'f0f8508dd24826cfcd8be11e8518eeb8'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '51967463804@s.whatsapp.net',
+    remoteJid: '51974511703@s.whatsapp.net',
     fromMe: false,
-    id: '91835A02644A3978B64EED35C591499F',
+    id: '6BC1027301C6BD29E260B8BD0070ECB8',
     participant: undefined
   },
-  messageTimestamp: 1724624791,
-  pushName: '¡¡Hakuna Matata!!😊😊',
+  messageTimestamp: 1738259933,
+  pushName: 'CLARO PORTABILIDAD',
   broadcast: false,
   message: Message {
-    conversation: 'Cursos',
+    conversation: 'Quien eres?',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
     }
   },
-  body: 'Cursos',
-  from: '51967463804'
+  verifiedBizName: 'CLARO PORTABILIDAD',
+  body: 'Quien eres?',
+  from: '51974511703'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_882f2b10-40e3-4492-b288-53f3bb7abec4',
-  keyword: 'key_32192cd7-10e8-46ee-a6fa-26528b120511',
+  ref: 'ans_abd41dcb-9754-4ee2-94d1-f7e13ff24ee1',
+  keyword: 'key_21f7be76-6bfc-4071-9cac-2a86d0101b60',
   answer: '__call_action__',
   options: {
     media: null,
@@ -72,31 +116,33 @@
     keyword: {},
     callback: true
   },
-  refSerialize: '4f2cf52c4c8d5465dcda4d785862f8c0'
+  refSerialize: 'f0f8508dd24826cfcd8be11e8518eeb8'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '51967463804@s.whatsapp.net',
+    remoteJid: '51974511703@s.whatsapp.net',
     fromMe: false,
-    id: '161BC11190B3BE014FD75843EDB69C72',
+    id: '01B4F84DC15C924BC1FF95172956A35C',
     participant: undefined
   },
-  messageTimestamp: 1724624797,
-  pushName: '¡¡Hakuna Matata!!😊😊',
+  messageTimestamp: 1738259960,
+  pushName: 'CLARO PORTABILIDAD',
   broadcast: false,
   message: Message {
-    conversation: 'Asesor',
+    conversation: 'Que servicios ofreces?',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
     }
   },
-  body: 'Asesor',
-  from: '51967463804'
+  verifiedBizName: 'CLARO PORTABILIDAD',
+  body: 'Que servicios ofreces?',
+  from: '51974511703'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_882f2b10-40e3-4492-b288-53f3bb7abec4',
-  keyword: 'key_32192cd7-10e8-46ee-a6fa-26528b120511',
+  ref: 'ans_abd41dcb-9754-4ee2-94d1-f7e13ff24ee1',
+  keyword: 'key_21f7be76-6bfc-4071-9cac-2a86d0101b60',
   answer: '__call_action__',
   options: {
     media: null,
@@ -110,31 +156,33 @@
     keyword: {},
     callback: true
   },
-  refSerialize: '4f2cf52c4c8d5465dcda4d785862f8c0'
+  refSerialize: 'f0f8508dd24826cfcd8be11e8518eeb8'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '51967463804@s.whatsapp.net',
+    remoteJid: '51974511703@s.whatsapp.net',
     fromMe: false,
-    id: 'EDA8A1A6780856A54992353B4AD0E058',
+    id: '3763A0159EA056FCB25F9F0DD1E7ED41',
     participant: undefined
   },
-  messageTimestamp: 1724624802,
-  pushName: '¡¡Hakuna Matata!!😊😊',
+  messageTimestamp: 1738260013,
+  pushName: 'CLARO PORTABILIDAD',
   broadcast: false,
   message: Message {
-    conversation: 'Modalidad',
+    conversation: 'Sobre consultoria estrtegica',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
     }
   },
-  body: 'Modalidad',
-  from: '51967463804'
+  verifiedBizName: 'CLARO PORTABILIDAD',
+  body: 'Sobre consultoria estrtegica',
+  from: '51974511703'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_882f2b10-40e3-4492-b288-53f3bb7abec4',
-  keyword: 'key_32192cd7-10e8-46ee-a6fa-26528b120511',
+  ref: 'ans_abd41dcb-9754-4ee2-94d1-f7e13ff24ee1',
+  keyword: 'key_21f7be76-6bfc-4071-9cac-2a86d0101b60',
   answer: '__call_action__',
   options: {
     media: null,
@@ -148,31 +196,33 @@
     keyword: {},
     callback: true
   },
-  refSerialize: '4f2cf52c4c8d5465dcda4d785862f8c0'
+  refSerialize: 'f0f8508dd24826cfcd8be11e8518eeb8'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '51967463804@s.whatsapp.net',
+    remoteJid: '51974511703@s.whatsapp.net',
     fromMe: false,
-    id: '546DC853C9AF5C81EA576F17DC1423EF',
+    id: 'ECC2FFFCF13838CC7B3F128E614C7A0E',
     participant: undefined
   },
-  messageTimestamp: 1724624809,
-  pushName: '¡¡Hakuna Matata!!😊😊',
+  messageTimestamp: 1738260055,
+  pushName: 'CLARO PORTABILIDAD',
   broadcast: false,
   message: Message {
-    conversation: 'Puedo llamat',
+    conversation: 'Y sobrr innovación y transformación digital?',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
     }
   },
-  body: 'Puedo llamat',
-  from: '51967463804'
+  verifiedBizName: 'CLARO PORTABILIDAD',
+  body: 'Y sobrr innovación y transformación digital?',
+  from: '51974511703'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_882f2b10-40e3-4492-b288-53f3bb7abec4',
-  keyword: 'key_32192cd7-10e8-46ee-a6fa-26528b120511',
+  ref: 'ans_abd41dcb-9754-4ee2-94d1-f7e13ff24ee1',
+  keyword: 'key_21f7be76-6bfc-4071-9cac-2a86d0101b60',
   answer: '__call_action__',
   options: {
     media: null,
@@ -186,44 +236,7 @@
     keyword: {},
     callback: true
   },
-  refSerialize: '4f2cf52c4c8d5465dcda4d785862f8c0'
+  refSerialize: 'f0f8508dd24826cfcd8be11e8518eeb8'
 }
-[handleMsg]:  {
-  key: {
-    remoteJid: '51967463804@s.whatsapp.net',
-    fromMe: false,
-    id: '4D960AC952E8B79E451FFCFEB1716F55',
-    participant: undefined
-  },
-  messageTimestamp: 1724624821,
-  pushName: '¡¡Hakuna Matata!!😊😊',
-  broadcast: false,
-  message: Message {
-    conversation: 'Medios de pago',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Medios de pago',
-  from: '51967463804'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_882f2b10-40e3-4492-b288-53f3bb7abec4',
-  keyword: 'key_32192cd7-10e8-46ee-a6fa-26528b120511',
-  answer: '__call_action__',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: '4f2cf52c4c8d5465dcda4d785862f8c0'
-}
- *BANCO DE LA NACIÓN*:  \n👤 *A NOMBRE:* \"WKMB SRL\"  \n💰 *CTA. CORRIENTE:* 00-813-006456  \n\n⚠️ *Recuerda que luego de realizar cualquier tipo de pago, por favor adjunta una captura o archivo de voucher para que el coordinador pueda confirmarlo* ✅.\n\nSi necesitas más información, ¡hazmelo saber! 😊","timestamp":"2024-08-25T22:27:04.939Z"}
+azgo y la cultura organizacional.\n\nSi deseas más información o tienes preguntas específicas sobre cómo podemos ayudarte con consultoría estratégica, ¡no dudes en decírmelo! 🚀","timestamp":"2025-01-30T18:00:18.100Z"}
+{"userId":"51974511703","userMessage":"Y sobrr innovación y transformación digital?","aiResponse":"¡Por supuesto! 😊 La **innovación y transformación digital** es otro de nuestros servicios destacados en Grupo Empatic. Aquí te detallo más sobre este servicio:\n\n🔍 **¿Qué es la innovación y transformación digital?**\nSe refiere al proceso de integrar tecnologías digitales en todas las áreas de una organización, lo que cambia fundamentalmente cómo operan y brindan valor a sus clientes. También implica una cultura organizacional que fomente la innovación continua.\n\n💼 **¿Qué incluye nuestro servicio de innovación y transformación digital?**\n1. **Evaluación Digital**: Analizamos el estado actual de la organización en términos de tecnología y procesos digitales.\n2. **Estrategia Digital**: Desarrollamos un plan estratégico que define cómo la organización puede aprovechar la tecnología para mejorar su eficiencia y competitividad.\n3. **Implementación de Tecnologías**: Asesoramos en la selección e implementación de herramientas digitales adecuadas, como software de gestión, plataformas de colaboración, entre otros.\n4. **Capacitación**: Ofrecemos formación al personal para asegurar que todos estén preparados para utilizar las nuevas tecnologías y procesos.\n5. **Seguimiento y Mejora Continua**: Realizamos un seguimiento del impacto de las implementaciones y proponemos mejoras continuas.\n\n🌟 **Beneficios de la innovación y transformación digital**:\n- Aumento de la eficiencia operativa.\n- Mejora en la experiencia del cliente.\n- Acceso a nuevos mercados y oportunidades.\n- Fomento de una cultura organizacional innovadora.\n\nSi tienes más preguntas o necesitas información específica sobre cómo podemos ayudarte con la innovación y transformación digital, ¡estaré encantado de asistirte! 🚀","timestamp":"2025-01-30T18:01:01.973Z"}

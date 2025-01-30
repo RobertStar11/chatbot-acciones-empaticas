@@ -3,6 +3,8 @@ const QRPortalWeb = require('@bot-whatsapp/portal');
 const BaileysProvider = require('@bot-whatsapp/provider/baileys');
 const MockAdapter = require('@bot-whatsapp/database/mock');
 const OpenAI = require('openai');
+const express = require('express');
+const cors = require('cors');
 const fs = require('fs');
 const path = require('path');
 require('dotenv').config();
@@ -13,116 +15,75 @@ const openai = new OpenAI({
     organization: process.env.OPENAI_ORGANIZATION,
 });
 
-// Contexto para la IA
+// Sesiones de usuarios
+const userSessions = {};
+
+// Contexto de la IA
 const context = `
-    Eres un asistente llamado Carlos, te tienes que presentar y decir tu nombre al cliente al momento de que comienzes la conversacion.
-    *¡Buen día!* 👋 Soy el Asesor *IMB ONLINE* 📚. Estoy aquí para asistirte *paso a paso*. 
-    Instituto Manuel Banda Online es de modalidad a distancia *(100% virtual) orientada para adultos que trabajan.*
-    Ofrecemos un *Título profesional Técnico en Administración de Empresas* a nombre de la Nación. 🇵🇪
-    Nuestra ubicación física es *Calle La Victoria 165, Guadalupe 13841, La Libertad*, pero recuerda que todos nuestros programas son completamente virtuales.
-    
-    Aquí tienes información que te puede ser útil para responder a las consultas:
 
-    - *Modalidad*:
-        Todas las clases son *100% virtuales* y están diseñadas para adaptarse a adultos que trabajan. El programa es flexible, permitiéndote estudiar a tu propio ritmo desde cualquier lugar. De acuerdo con tu experiencia laboral de mas de 2 años puedes convalidar el primer año (2 ciclos).
-    - *Materiales y Medios para llevar la carrera*: 
-        Debes contar con acceso a internet y un equipo como una laptop o PC.
-    - Si el usuario pregunta sobre los cursos le dices que son 35 cursos a lo largo de los tres años, pero se obian algunos por el tema de la convalidacion.
-    - De acuerdo con tu experiencia laboral de más de 2 años, puedes convalidar el primer año (2 ciclos).
-    - *Ubicación*: 📍 Calle La Victoria 165, Guadalupe 13841, La Libertad.
-    - *Carrera disponible*: Actualmente, el unico programa de estudio online disponible es *Administración de Empresas* 📚.
-    - *Reseña historica sobre IMB*
-        El Instituto Manuel Banda Deza, fundado el 4 de marzo de 2011 en Guadalupe, La Libertad, se erige como una institución dedicada a la formación técnico-profesional superior. Nombrado en honor a Manuel Banda Deza, destacado médico y poeta guadalupano, refleja un legado de compromiso con la educación, el desarrollo comunitario y la excelencia. Desde sus inicios, el instituto se ha propuesto brindar una educación de calidad, adaptándose a las necesidades cambiantes del mercado laboral y fomentando el espíritu emprendedor entre sus estudiantes. A lo largo de los años, ha ampliado su oferta académica y mejorado su infraestructura, consolidándose como un referente en educación superior tecnológica en Perú. Agregale tambien emojis
-    - *Costos*: 
-      👏 *Si eres Apto:* 
-      📩 *Inscripción*: *S/100* 
-      ✅ *Informe de convalidación*: *S/100* 
-      📚 *Matrícula*: *S/150*
-      📚 *Derechos academicos por el primer bloque convalidado*:  *S/1 000*
-      📚 *Mensualidad de estudios*:  *S/150*
+    👋 ¡Hola! Soy Empa 🤖✨, tu asistente virtual de Grupo Empatic y Acciones Empáticas.
+    ¿Te quieres comunicar con Grupo Empatic o Acciones Empáticas? ¡Genial! 🎉
 
-    -*Pagina web*
-        Si el usuario pregunta sobre la pagina web, responde: Claro! Este es el link a nuestra pagina web de IMB (https://imb.edu.pe) 🌐.
-    - *Solicitud de Malla Curricular*:
-        Si el usuario pide la malla curricular o solicita detalles sobre el plan de estudios, responde: *"¡Por supuesto! Te estoy enviando la malla curricular que se encuentra en nuestra pagina web (hoja 7) (https://imb.edu.pe/brochure/) 📄."*
+    📩 Compártenos tus datos para conocerte mejor:
+    📝 Nombre
+    🆔 DNI
+    📧 Correo electrónico
 
-    -Si el usuario pregunta sobre los docentes le dices que son de gran prestigio con experiencia en dicha carrera, pero por politicas de privacidad no se puede decir los nombre de los profesores.
+    💡 ¿Desde Grupo Empatic, cómo podemos ayudarte?
+    🔹 Información sobre servicios
+    🔹 Agendar una consulta
+    🔹 Hablar con un asesor
 
-    - *Métodos de Pago*:
-      🟪 *YAPE*:  
-      👤 *A NOMBRE:* " *WKMB* "  
-      💰 *NÚMERO:* +51 968686938  
+    📢 ¿Qué es Grupo Empatic?
+    Grupo Empatic es una empresa especializada en consultoría y desarrollo de proyectos. Brindamos soluciones estratégicas y asesoramiento profesional en diversas áreas para impulsar el éxito de organizaciones y emprendedores.
 
-      🟦 *BCP*:  
-      👤 *A NOMBRE: " WKMB SRL* "  
-      💰 *CTA. AHORRO:* 300-9948336-0-43  
-      💰 *CCI:* 00230000994833604326  
+    💼 Nuestros Servicios:
+    ✅ Consultoría estratégica
+    ✅ Gestión de proyectos
+    ✅ Capacitación y desarrollo profesional
+    ✅ Innovación y transformación digital
 
-      🟥 *BANCO DE LA NACIÓN*:  
-      👤 *A NOMBRE:* " *WKMB SRL* "  
-      💰 *CTA. CORRIENTE:* 00-813-006456  
-      
-      ⚠️ *Luego de realizar cualquier tipo de pago, por favor adjuntar una captura o archivo de voucher para que el coordinador pueda confirmarlo* ✅
+    📍 ¿Qué es Acciones Empáticas?
+    Acciones Empáticas es una organización social enfocada en el desarrollo de proyectos que generan impacto positivo en comunidades vulnerables. Buscamos fortalecer el tejido social a través del voluntariado, la sostenibilidad y la colaboración.
 
-      El numero de *YAPE* esta asociado a *PLIN*
+    🎯 Misión
+    🌎 Impulsamos el desarrollo sostenible de comunidades mediante proyectos de impacto social, fomentando el crecimiento de voluntarios empáticos.
 
-    - *Requisitos de Admisión*:
-      🎓 *Requisitos para tu Admisión* 📋  
-      ✅ Ser mayor de 18 años 🎂  
-      ✅ Documento de identificación válido o vigente 📑  
-      ✅ Foto personal tipo pasaporte 📷  
-      ✅ Certificado de estudios de secundaria 📚  
-      ✅ Experiencia laboral mínima de 2 años 💼
-    
-    - *Formularios de Admisión*:
+    👀 Visión
+    💡 Ser una plataforma social líder en la generación de cambios positivos a nivel nacional e internacional.
 
-      Si el usuario pide formularios de admisión o algo relaciona con inscripcion, responde con los siguiente mensaje:
+    💙 Nuestros Valores
+    🤝 Empatía
+    🚀 Innovación
+    🌱 Sostenibilidad
+    🔎 Transparencia
 
-      Aquí te muestro los *Formularios* para tu admisión en el Instituto *Manuel Banda Online*📚:
+    📌 Objetivos Estratégicos
+    🔹 Proyectos: Impactar comunidades vulnerables con iniciativas de cambio.
+    🔹 Equipo: Crear una red sólida de voluntarios empáticos y comprometidos.
+    🔹 Sostenibilidad: Generar alianzas estratégicas para asegurar estabilidad financiera.
+    🔹 Posicionamiento: Potenciar la visibilidad y reputación como referentes en el sector.
 
-      Estos son los Formularios que debes completar📋:
+    📩 ¡Contáctanos!
+    ✉️ Escríbenos y descubre cómo puedes ser parte de Grupo Empatic o Acciones Empáticas.
 
-      📚 *Ficha de Inscripción a IMB Online*: [Ficha de Inscripción a IMB Online](https://docs.google.com/forms/d/e/1FAIpQLScdTYQwrOi1Hwi3b0axiVG8CXYSFM33S1vCKFUXAWJ2I9LQpg/viewform) ✍️📙
+    ✨ ¡Juntos podemos hacer la diferencia! 💛🌍
 
-      📚 *Ficha técnica de convalidación por competencias Primer y Segundo Ciclo*: [Ficha técnica de convalidación](https://forms.gle/izroccZuJfZwS2F8A)
+    🗨️ Respuestas rápidas:
 
-      📚 *Convalidación de competencias laborales Primer y Segundo Ciclo*: Documento para descargar en PDF y llenar: [Convalidación de competencias laborales](https://bit.ly/Drive-convalidacion-IMB) 🏅📚
-      
-    -*Inicio de las clases*
-        El inicio de clases es el 26 de agosto del 2024.
-    -*Horario de atencion*:
-        También incluye que el horario de atención presencial es de 9:00 a.m a 12:00 p.m y de 3:00 p-m a 6:00 p.m, de lunes a sábado en 📍 Calle La Victoria 165, Guadalupe 13841, La Libertad. Además, menciona que la atención por WhatsApp está disponible las 24 horas del día. Agrega emoticones para que se vea mas dinamico.
-    -*Licenciamiento*
-        Si el usuario pregunta sobre el licenciamiento, responde: "Estamos culminando el proceso de licenciamiento, la fecha programada es noviembre del 2024."
-    -*Fecha limite para matricularse*
-        Si el usuario sobre la fecha limitte de la maticula o algo relacionado, responde: La fecha maxima para que te pueda matricular es el *LUNES 26 DE AGOSTO*.
-    -*Contacto telefónico*:
-        Si el usuario pregunta si puede llamar por teléfono, responde: "¡Claro! Puedes llamarnos al mismo numero que se esta comunicando, durante los siguientes horarios: 9 a.m a 12 p.m y 3 p.m a 6 p.m. Nuestro director se encargará de atender tu llamada."
-        Si el usuario insiste en llamar, solicita que deje un número de teléfono y un nombre, y el director se encargará de la llamada.
-    
-    - Si el usuario cumple con los requisitos, responde: *"¡Genial! o algo que afirme que si esta interesado 😄 Puedes realizar los formularios para tu inscripcion* 📝"
-    
-    - Si el usuario agradece o confirma que entendió, responde: *"¡Perfecto!* 😊 Si tienes más preguntas o necesitas ayuda, estoy aquí para *ayudarte* en lo que necesites. 🚀"
-
-    - Si no entiendes algo que el usuario dijo, o no puedes dar una respuesta segura, pide que lo aclare amablemente: *"Disculpa, no entendí bien lo que me quieres decir. ¿Podrías explicarlo de otra manera o darme más detalles?"*.
-
-    -Procura responder de manera objetiva y concisa, utilizando solo la cantidad necesaria de palabras para cubrir la consulta del usuario. Evita detalles o explicaciones innecesarias para optimizar el uso de tokens.
+        Si el usuario agradece o confirma que entendió, responde: "¡Perfecto! 😊 Si tienes más preguntas o necesitas ayuda, estoy aquí para ayudarte en lo que necesites. 🚀"*
+        Si el usuario necesita más información, responde: "Disculpa, no entendí bien lo que me quieres decir. ¿Podrías explicarlo de otra manera o darme más detalles?"
 `;
 
-// Almacenamiento de sesiones de usuarios
-
-const userSessions = {};  // Un objeto para almacenar las sesiones de los usuarios
-
-// Función para obtener respuesta de la IA
+// Función para obtener la respuesta de la IA
 async function getAIResponse(userId, message) {
-    // Si el usuario tiene contexto almacenado, solo se envía el contexto actualizado; si es nuevo, se usa el contexto completo
     let contextToSend = userSessions[userId] || context;
 
     try {
         const response = await openai.chat.completions.create({
             model: 'gpt-4o-mini',
             messages: [
-                { role: 'system', content: contextToSend },  // Envía el contexto solo si es la primera interacción
+                { role: 'system', content: contextToSend },
                 { role: 'user', content: message }
             ],
             max_tokens: 2000,
@@ -133,11 +94,8 @@ async function getAIResponse(userId, message) {
         });
 
         const aiResponse = response.choices[0].message.content.trim();
-
-        // Almacena la conversación en la sesión del usuario para la próxima interacción
         userSessions[userId] = `${contextToSend}\nUser: ${message}\nAI: ${aiResponse}`;
-
-        logChat(userId, message, aiResponse);  // Registra en el log el mensaje del usuario y la respuesta de ChatGPT
+        logChat(userId, message, aiResponse);
         return aiResponse;
 
     } catch (error) {
@@ -146,7 +104,7 @@ async function getAIResponse(userId, message) {
     }
 }
 
-// Función para registrar el chat en el archivo core.class.log
+// Función para registrar el chat en un log
 function logChat(userId, userMessage, aiResponse) {
     const logEntry = {
         userId,
@@ -162,7 +120,7 @@ function logChat(userId, userMessage, aiResponse) {
     );
 }
 
-// Flujos del bot
+// Flujo del bot de WhatsApp
 const defaultFlow = addKeyword(['.*'])
     .addAction(async (ctx, { flowDynamic }) => {
         const userId = ctx.from;
@@ -170,7 +128,7 @@ const defaultFlow = addKeyword(['.*'])
         await flowDynamic([{ body: aiResponse }]);
     });
 
-// Función principal
+// Iniciar el bot de WhatsApp
 const main = async () => {
     const adapterDB = new MockAdapter();
     const adapterProvider = createProvider(BaileysProvider);
@@ -181,9 +139,30 @@ const main = async () => {
         database: adapterDB,
     });
 
-    QRPortalWeb();  // Genera el QR para la conexión con WhatsApp
+    QRPortalWeb();
 };
 
+// **NUEVO: Servidor Express para la Web**
+const app = express();
+const port = process.env.PORT || 3001;
+app.use(express.json());
+app.use(cors()); // Permite que WordPress pueda comunicarse con el bot
+
+// Ruta API para manejar el chatbot desde la web
+app.post('/chat', async (req, res) => {
+    const { userId, message } = req.body;
+    if (!message) return res.status(400).json({ error: 'Mensaje vacío' });
+
+    const aiResponse = await getAIResponse(userId || 'web-user', message);
+    res.json({ reply: aiResponse });
+});
+
+// Iniciar servidor Express
+app.listen(port, () => {
+    console.log(`Servidor web activo en http://localhost:${port}`);
+});
+
+// Ejecutar el bot de WhatsApp
 main().catch((error) => {
     console.error('Error en la función principal:', error);
 });
